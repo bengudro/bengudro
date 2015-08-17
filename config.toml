@@ -36,10 +36,12 @@ theme = "agency-bengudro"
 	# Navigation
 	[params.navigation]
 		brand = "BenGudro"
-		services = "Services"
+		#services = "Services"
+		services = "Skills"
 		portfolio = "Portfolio"
 		about = "About"
-		team = "Team"
+		#team = "Team"
+		team = "Me"
 		contact = "Contact"
 
 
@@ -53,24 +55,65 @@ theme = "agency-bengudro"
 
 
 	# Services section
-	[params.services]
-		title = "Services"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
+#	[params.services]
+#		title = "Services"
+#		subtitle = "Lorem ipsum dolor sit amet consectetur."
+#
+#		[[params.services.list]]
+#			icon = "fa-shopping-cart"
+#			title = "E-Commerce"
+#			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.  Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+#
+#		[[params.services.list]]
+#			icon = "fa-laptop"
+#			title = "Responsive Design"
+#			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.  Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+#
+#		[[params.services.list]]
+#			icon = "fa-lock"
+#			title = "Web"
+#			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.  Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
 
-		[[params.services.list]]
-			icon = "fa-shopping-cart"
-			title = "E-Commerce"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.  Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+
+	# Skills (Services) section
+	[params.services]
+		title = "Skills"
+		subtitle = "A brief overview"
+
+#		[[params.services.list]]
+#			icon = "fa-shopping-cart"
+#			title = "E-Commerce"
+#			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.  Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
 
 		[[params.services.list]]
 			icon = "fa-laptop"
 			title = "Responsive Design"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.  Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+			description = "Making sure web-pages look great on any device, from desktops to tablets to smartphones"
 
 		[[params.services.list]]
 			icon = "fa-lock"
 			title = "Web"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.  Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+			description = "When it comes to web standards, I like to do my research and get things right."
+
+		[[params.services.list]]
+			icon = "fa-wordpress"
+			title = "Wordpress"
+			description = "I can take care of your Wordpress installation & configuration, install themes, plugins, etc."
+
+		[[params.services.list]]
+			icon = "fa-html5"
+			title = "HTML5"
+			description = "I strive to make my html clean and valid."
+
+		[[params.services.list]]
+			icon = "fa-css3"
+			title = "CSS3"
+			description = "Because animations are fun."
+
+		[[params.services.list]]
+			icon = "fa-linux"
+			title = "Linux"
+			description = "Unafraid of the command-line, I use it every day, even on the weekend."
 
 
 	# Portfolio section
@@ -93,7 +136,7 @@ theme = "agency-bengudro"
 	[params.about]
 		title = "About"
 		subtitle = "Lorem ipsum dolor sit amet consectetur."
-		endpoint = "Be part<br />of our<br />story!"
+		endpoint = "Let’s<br />work<br />together!"
 
 		# The events will be listed from the top to the bottom
 		# All images are stored under ‘static/img/about’.
@@ -125,36 +168,46 @@ theme = "agency-bengudro"
 
 	# Team section
 	[params.team]
-		title = "Our amazing team"
+		title = "Mandatory picture of me"
 		subtitle = "Lorem ipsum dolor sit amet consectetur."
 		description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.  Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
 
 		# All team member pictures are stored under ‘static/img/team’.
 		# Replace them with your own.
+#		[[params.team.members]]
+#			img = "1.jpg"
+#			name = "Kay Garland"
+#			position = "Lead Designer"
+#			social = [
+#				["fa-twitter", "#"],
+#				["fa-facebook", "#"],
+#				["fa-linkedin", "#"]
+#			]
+#
+#		[[params.team.members]]
+#			img = "2.jpg"
+#			name = "Larry Parker"
+#			position = "Lead Marketer"
+#			social = [
+#				["fa-twitter", "#"],
+#				["fa-facebook", "#"],
+#				["fa-linkedin", "#"]
+#			]
+#
+#		[[params.team.members]]
+#			img = "3.jpg"
+#			name = "Diana Pertersen"
+#			position = "Lead Developer"
+#			social = [
+#				["fa-twitter", "#"],
+#				["fa-facebook", "#"],
+#				["fa-linkedin", "#"]
+#			]
+
 		[[params.team.members]]
 			img = "1.jpg"
-			name = "Kay Garland"
-			position = "Lead Designer"
-			social = [
-				["fa-twitter", "#"],
-				["fa-facebook", "#"],
-				["fa-linkedin", "#"]
-			]
-
-		[[params.team.members]]
-			img = "2.jpg"
-			name = "Larry Parker"
-			position = "Lead Marketer"
-			social = [
-				["fa-twitter", "#"],
-				["fa-facebook", "#"],
-				["fa-linkedin", "#"]
-			]
-
-		[[params.team.members]]
-			img = "3.jpg"
-			name = "Diana Pertersen"
-			position = "Lead Developer"
+			name = "Benjamin Goudreault"
+			position = "Here’s me in the picture"
 			social = [
 				["fa-twitter", "#"],
 				["fa-facebook", "#"],
