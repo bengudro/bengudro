@@ -4,7 +4,8 @@ subtitle: An Awesome Acme page.
 date: 2014-07-05
 img: acme.jpg
 preview: acme-preview.jpg
-client: Start Bootstrap
-clientLink: "#"
+client: View the code here.
+clientLink: "https://github.com/bengudro/acme/"
 category: An Awesome Acme page.
-description: My first web page ever.
+#description: My first web page ever.
+description: ""

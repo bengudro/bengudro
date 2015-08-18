@@ -4,7 +4,8 @@ subtitle: The Lengendary Origins of Tea.
 date: 2014-07-08
 img: javaco.jpg
 preview: javaco-preview.jpg
-client: Start Bootstrap
-clientLink: "#"
+client: View the code here.
+clientLink: "https://github.com/bengudro/javaco/"
 category: The Lengendary Origins of Tea.
-description: Escape is a free PSD web template built by [Mathavan Jaya](//www.behance.net/MathavanJaya).  Escape is a one page web template that was designed with agencies in mind.  This template is ideal for those looking for a simple one page solution to describe your business and offer your services. <br /><br />You can download the PSD template in this portfolio sample item at [FreebiesXpress.com](//freebiesxpress.com/gallery/escape-one-page-psd-web-template/).
+#description: Escape is a free PSD web template built by [Mathavan Jaya](//www.behance.net/MathavanJaya).  Escape is a one page web template that was designed with agencies in mind.  This template is ideal for those looking for a simple one page solution to describe your business and offer your services. <br /><br />You can download the PSD template in this portfolio sample item at [FreebiesXpress.com](//freebiesxpress.com/gallery/escape-one-page-psd-web-template/).
+description: ""

@@ -123,7 +123,7 @@ theme = "agency-bengudro"
 		# at the root of this Hugo site.
 		# For more informtion take a look at the README.
 		title = "Portfolio"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
+		subtitle = "Just a few samples of what I learned to do in school."
 
 		[params.portfolio.modal]
 			client = "Client"
@@ -143,34 +143,34 @@ theme = "agency-bengudro"
 		# Replace them with your own.
 		[[params.about.events]]
 			img = "1.jpg"
-			date = "2009-2011"
-			title = "Our Humble Beginnings"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.  Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+			date = "2013-2014"
+			title = "My Humble Beginnings"
+			description = "I studied web programming at Cégep de l’Outaouais in Hull, Québec, where I learned about tags and classes and objects and types and inheritance and recursion and all that wonderful stuff."
 
 		[[params.about.events]]
 			img = "2.jpg"
-			date = "March 2011"
-			title = "An Agency is Born"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.  Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
-		[[params.about.events]]
-			img = "3.jpg"
-			date = "December 2012"
-			title = "Our Humble Beginnings"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.  Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+			date = "October 2014"
+			title = "Going West"
+			description = "I felt the need to be closer to the mountains and to family, so I came to Alberta."
 
 		[[params.about.events]]
 			img = "4.jpg"
-			date = "July 2014"
-			title = "Phase Two Expansion"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.  Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+			date = "December 2012"
+			title = "Starting Afresh"
+			description = "Now I’m trying to see if the skills I acquired in schoold can be put to good use in the web industry here in Calgary."
+
+#		[[params.about.events]]
+#			img = "4.jpg"
+#			date = "July 2014"
+#			title = "Phase Two Expansion"
+#			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.  Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
 
 	# Team section
 	[params.team]
-		title = "Mandatory picture of me"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
-		description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.  Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+		title = "Who are you?"
+#		subtitle = "Lorem ipsum dolor sit amet consectetur."
+		description = "Now you’ll have no excuse not to say ‘hi’ next time you see me down the street."
 
 		# All team member pictures are stored under ‘static/img/team’.
 		# Replace them with your own.
@@ -205,9 +205,9 @@ theme = "agency-bengudro"
 #			]
 
 		[[params.team.members]]
-			img = "1.jpg"
+			img = "4.jpg"
 			name = "Benjamin Goudreault"
-			position = "Here’s me in the picture"
+			position = "This is me."
 			social = [
 				["fa-twitter", "#"],
 				["fa-facebook", "#"],
@@ -236,8 +236,8 @@ theme = "agency-bengudro"
 
 	# Contact section
 	[params.contact]
-		title = "Contact us"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
+		title = "Get in touch"
+#		subtitle = "Lorem ipsum dolor sit amet consectetur."
 		buttonText = "Send message"
 
 		# ‘warning’ defines error messages for invalid inputs
@@ -264,7 +264,7 @@ theme = "agency-bengudro"
 
 		[[params.footer.social]]
 			icon = "fa-twitter"
-			link = "#"
+			link = "https://twitter.com/bengudro/"
 
 		[[params.footer.social]]
 			icon = "fa-facebook"
@@ -272,7 +272,7 @@ theme = "agency-bengudro"
 
 		[[params.footer.social]]
 			icon = "fa-linkedin"
-			link = "#"
+			link = "https://www.linkedin.com/in/goudreault/"
 
 		[[params.footer.quicklinks]]
 			text = "Privacy Policy"
