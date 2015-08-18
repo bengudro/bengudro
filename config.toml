@@ -51,7 +51,7 @@ theme = "agency-bengudro"
 		# the ‘static/img’ folder.
 		title = "Welcome To My Page!"
 		subtitle = "It’s nice to meet you"
-		buttonText = "Tell me more"
+		buttonText = "Cut to the chase"
 
 
 	# Services section
@@ -135,8 +135,8 @@ theme = "agency-bengudro"
 	# About section
 	[params.about]
 		title = "About"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
-		endpoint = "Let’s<br />work<br />together!"
+		subtitle = "What happened?"
+		endpoint = "Hire<br />me!"
 
 		# The events will be listed from the top to the bottom
 		# All images are stored under ‘static/img/about’.
@@ -151,13 +151,13 @@ theme = "agency-bengudro"
 			img = "2.jpg"
 			date = "October 2014"
 			title = "Going West"
-			description = "I felt the need to be closer to the mountains and to family, so I came to Alberta."
+			description = "The mountains were calling, and so was family."
 
 		[[params.about.events]]
 			img = "4.jpg"
-			date = "December 2012"
+			date = "Going forward"
 			title = "Starting Afresh"
-			description = "Now I’m trying to see if the skills I acquired in schoold can be put to good use in the web industry here in Calgary."
+			description = "Now I’m trying to see if the skills I acquired in schoold can be put to good use in the web industry here in Western Canada."
 
 #		[[params.about.events]]
 #			img = "4.jpg"
@@ -168,7 +168,7 @@ theme = "agency-bengudro"
 
 	# Team section
 	[params.team]
-		title = "Who are you?"
+		title = "But who are you?"
 #		subtitle = "Lorem ipsum dolor sit amet consectetur."
 		description = "Now you’ll have no excuse not to say ‘hi’ next time you see me down the street."
 
@@ -209,9 +209,9 @@ theme = "agency-bengudro"
 			name = "Benjamin Goudreault"
 			position = "This is me."
 			social = [
-				["fa-twitter", "#"],
-				["fa-facebook", "#"],
-				["fa-linkedin", "#"]
+				["fa-twitter", "https://twitter.com/bengudro/"],
+				#["fa-facebook", "#"],
+				["fa-linkedin", "https://www.linkedin.com/in/goudreault/"]
 			]
 
 	# Client section
@@ -266,9 +266,9 @@ theme = "agency-bengudro"
 			icon = "fa-twitter"
 			link = "https://twitter.com/bengudro/"
 
-		[[params.footer.social]]
-			icon = "fa-facebook"
-			link = "#"
+#		[[params.footer.social]]
+#			icon = "fa-facebook"
+#			link = "#"
 
 		[[params.footer.social]]
 			icon = "fa-linkedin"
