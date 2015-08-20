@@ -123,7 +123,7 @@ theme = "agency-bengudro"
 		# at the root of this Hugo site.
 		# For more informtion take a look at the README.
 		title = "Portfolio"
-		subtitle = "Just a few samples of what I learned to do in school."
+		subtitle = "Just a few samples of what I learned to do in school.<br />(Still under construction, more to come soon.)"
 
 		[params.portfolio.modal]
 			client = "Client"
@@ -169,8 +169,8 @@ theme = "agency-bengudro"
 	# Team section
 	[params.team]
 		title = "But who are you?"
-#		subtitle = "Lorem ipsum dolor sit amet consectetur."
-		description = "Now you’ll have no excuse not to say ‘hi’ next time you see me down the street."
+		subtitle = "Here’s a picture of me so now you’ll have no excuse to not say ‘hi’ next time you see me down the street."
+		description = "My values include family, community, and bringing people together.  That, and also quality coding and good design."
 
 		# All team member pictures are stored under ‘static/img/team’.
 		# Replace them with your own.
