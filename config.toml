@@ -207,7 +207,7 @@ theme = "agency-bengudro"
 		[[params.team.members]]
 			img = "4.jpg"
 			name = "Benjamin Goudreault"
-			position = "This is me."
+			position = "Yes it’s me."
 			social = [
 				["fa-twitter", "https://twitter.com/bengudro/"],
 				#["fa-facebook", "#"],
