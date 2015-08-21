@@ -78,7 +78,7 @@ theme = "agency-bengudro"
 	# Skills (Services) section
 	[params.services]
 		title = "Skills"
-		subtitle = "A brief overview"
+		subtitle = "A brief overview."
 
 #		[[params.services.list]]
 #			icon = "fa-shopping-cart"
@@ -88,7 +88,7 @@ theme = "agency-bengudro"
 		[[params.services.list]]
 			icon = "fa-laptop"
 			title = "Responsive Design"
-			description = "Making sure web-pages look great on any device, from desktops to tablets to smartphones"
+			description = "Making sure web-pages look great on any device, from desktops to tablets to smartphones."
 
 		[[params.services.list]]
 			icon = "fa-lock"
@@ -136,7 +136,7 @@ theme = "agency-bengudro"
 	[params.about]
 		title = "About"
 		subtitle = "What happened?"
-		endpoint = "Let’s<br />work<br />together!"
+		endpoint = "Let’s<br />team<br />up!"
 
 		# The events will be listed from the top to the bottom
 		# All images are stored under ‘static/img/about’.
@@ -237,7 +237,7 @@ theme = "agency-bengudro"
 	# Contact section
 	[params.contact]
 		title = "Get in touch"
-#		subtitle = "Lorem ipsum dolor sit amet consectetur."
+		subtitle = "Send me an Internet."
 		buttonText = "Send message"
 
 		# ‘warning’ defines error messages for invalid inputs
