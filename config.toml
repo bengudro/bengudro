@@ -169,7 +169,7 @@ theme = "agency-bengudro"
 	# Team section
 	[params.team]
 		title = "But who are you?"
-		subtitle = "Here’s a picture of me so now you’ll have no excuse to not say ‘hi’ next time you see me down the street."
+		subtitle = "Here’s a pic.  Now you have no excuse not to say ‘hi’ next time you run into me."
 		description = "I value family, community, and bringing people together.  That, and also quality coding and good design."
 
 		# All team member pictures are stored under ‘static/img/team’.
@@ -207,7 +207,7 @@ theme = "agency-bengudro"
 		[[params.team.members]]
 			img = "4.jpg"
 			name = "Benjamin Goudreault"
-			#position = "This is me."
+			position = "This is me."
 			social = [
 				["fa-twitter", "https://twitter.com/bengudro/"],
 				#["fa-facebook", "#"],
